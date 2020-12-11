@@ -12,11 +12,15 @@ const port = 3000;
 
 // TODO: Fill with strings of your favorite quotes :)
 const quotes = [
-  'one',
-  'two',
-  'three',
-  'four',
-  'five'
+  'On Fridays, we wear hats',
+  'She doesn’t even hack here',
+  'I wish we could all git along like we used to in precourse... I wish I could bake a cake filled with blinky dancers and n-queens and everyone would dance recursively and be happy...',
+  'One time, I saw Cady Heron using React, so I started using React',
+  'Four for you, SEIRs. You go, SEIRs',
+  'Stop trying to make GET happen',
+  'That’s why her hair is so big -- it’s full of Node docs',
+  'Get in, HTTP request, we’re going to the server',
+  'Oh my God, Karen -- you can’t just ask people why they like CSS'
 ];
 
 //Utility Function to return a random integer
@@ -37,12 +41,12 @@ const handleRequest = function(req, res) {
   }
 
   // TODO: GET ONE
-  if ((req.url == '/quote/' || req.url == '/quote') && req.method == "FILL ME IN") {
+  if ((req.url == '/quote/' || req.url == '/quote') && req.method == "GET") {
     //YOUR CODE HERE
 
   }
   // TODO: POST/CREATE
-  else if ((req.url == 'FILL ME IN' || req.url == 'FILL ME IN') && req.method == "FILL ME IN") {
+  else if ((req.url == 'FILL ME IN' || req.url == 'FILL ME IN') && req.method == "POST") {
     //YOUR CODE HERE
   }
 
